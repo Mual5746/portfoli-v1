@@ -20,7 +20,7 @@
 
   .about-wrapper {
     @include respond(phone) {
-      padding-bottom: 5rem;
+      padding-bottom: 2rem;
     }
 
     &__image {
@@ -71,6 +71,7 @@
             padding: 0;
             background: transparent;
             font-style: normal;
+            font-size: 0.2rem;
           }
         }
       }
